@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "outDir": "dist",
+    "rootDirs": ["src", "__tests__"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["__tests__"]
+}
