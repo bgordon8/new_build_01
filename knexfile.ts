@@ -1,7 +1,7 @@
 import path from 'path';
 
 const defaultOptions = {
-  client: 'postgresgl',
+  client: 'pg',
   connection: {
     database: 'new_build_01',
     host: 'localhost',
@@ -32,7 +32,11 @@ export default {
       database: 'new_build_01_test',
     },
   }),
-  production: {},
+  production: {
+    connection: {
+      database: '',
+    },
+  },
 } as { [key: string]: object };
 
 function config(overides: any) {

@@ -1,0 +1,13 @@
+2021-10-23 11:12:14.033 MDT [86730] FATAL:  lock file "postmaster.pid" already exists
+2021-10-23 11:12:14.033 MDT [86730] HINT:  Is another postmaster (PID 86710) running in data directory "/usr/local/var/postgres"?
+2021-10-23 11:20:22.177 MDT [87023] LOG:  starting PostgreSQL 14.0 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-10-23 11:20:22.181 MDT [87023] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-23 11:20:22.181 MDT [87023] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-23 11:20:22.182 MDT [87023] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-23 11:20:22.190 MDT [87024] LOG:  database system was shut down at 2021-10-23 11:19:39 MDT
+2021-10-23 11:20:22.197 MDT [87023] LOG:  database system is ready to accept connections
+2021-10-23 12:07:41.183 MDT [87608] ERROR:  syntax error at or near "/" at character 1
+2021-10-23 12:07:41.183 MDT [87608] STATEMENT:  /d users
+	users
+	SELECT * FROM users
+	SELECT * FROM users;
